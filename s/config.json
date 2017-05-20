@@ -6,8 +6,7 @@
     "local_port": 1081,
     "port_password":{
         "443":{},
-        "80":{"obfs":"http_post_compatible"},
-        "3380":{"obfs":"http_post_compatible"},
+        "9879":{"protocol":"auth_chain_a", "method":"none", "password":"123",},
         "28672":{}
     },
     "password": "M3hLw05B85A",
